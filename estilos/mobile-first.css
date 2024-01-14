@@ -42,13 +42,33 @@
 }
 
 .imagem-1 {
+    position: relative;
     background: black url(../imagens/pexels-wesley-davi-18129477.jpg) center no-repeat fixed;
     background-size: cover;
 }
 
+.imagem-1::after {
+    content: 'https://www.pexels.com/photo/smiling-blonde-woman-sitting-with-guitar-on-grass-18129477/';
+    color: white;
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .imagem-2 {
+    position: relative;
     background: black url(../imagens/pexels-pixabay-235986.jpg) bottom no-repeat fixed;
     background-size: cover;
+}
+
+.imagem-2::after {
+    content: 'https://www.pexels.com/photo/brown-brick-wall-235986/';
+    color: white;
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .rodape {
